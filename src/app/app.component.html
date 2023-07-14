@@ -1,0 +1,12 @@
+<app-header></app-header>
+
+<div class="container">
+  <div class="btn">
+    <h1 *ngIf="mostrar" >AQUI ESTA</h1>
+    <button *ngIf="mostrar; else naoMostrarTexto"  (click)="naoMostrar()">ESCONDER</button>
+
+    <ng-template #naoMostrarTexto>
+      <button (click)="naoMostrar()">APARECER</button>
+    </ng-template>
+  </div>
+</div>

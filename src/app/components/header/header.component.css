@@ -1,0 +1,74 @@
+header {
+  width: 100%;
+  height: 10vh;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-logo {
+  height: 100%;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-logo .logo {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-logo .logo img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.informacoes {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.informacoes ul {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff;
+}
+.informacoes ul li {
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.informacoes ul li:hover {
+  border-bottom: 3px solid #EC4434;
+}
+
+.pesquisar-logar {
+  width: 25%;
+  height: 100%;
+  background-color: red;
+}
+.pesquisar-logar .pesquisar {
+  height: 100%;
+  width: 40%;
+  background-color: blue;
+}
+.pesquisar-logar .logar {
+  height: 100%;
+  width: 40%;
+}/*# sourceMappingURL=header.component.css.map */
